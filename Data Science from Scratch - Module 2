@@ -1,1 +1,113 @@
 nome = "Daniel" #definição de variável sempre o nome = valor (o "=" é chaado de operador de atribuição)
+
+idade = 28
+
+altura = 1.75
+
+e_matematica = True
+
+nome
+
+print("o valor da variável nome é ", nome)
+
+type(nome) #type: classifica o tipo de variável
+
+type(idade)
+
+type(altura)
+
+type(e_matematica)
+
+float(idade) #chama o comando para converter - ainda não converteu
+
+type(idade)
+
+idade = float(idade) #somente aqui a converção é completa
+
+a = 2
+b = 5
+d = "para"
+e = "lelepípedo"
+
+# Operadores aritméticos
+- Os operadores possuem comportamentos diferentes dependendo do tipo das variáveis
+
+# Adição numérica
+print(a + b)
+
+# Adição de strings (concatena as palavras)
+print(d)
+print(e)
+print(d+e)
+
+# Subtração
+print(a - b)
+
+# Divisão: resultado float (número exato)
+print(b/a)
+
+# Divisão: resultado int (parte inteira)
+print(b//a)
+
+# Resto da divisão:
+print(b)
+print(a)
+
+print(b%a)
+
+# Multiplicação:
+print(a*b)
+
+# Potência
+print(a**2)
+
+print(a**3)
+
+# Operadores Relacionais
+
+a = 2
+b = 5
+d = "para"
+e = "lelepípedo"
+
+# Teste de igualdade numérica (NÂO É =, É ==)
+
+a == b
+
+# Teste de igualdade strings 
+
+print(d == e)
+print("eu" == "EU")
+print("eu" == "eu")
+
+# Teste de diferença strings
+a != b
+
+# Teste de diferencça de strings
+
+print ("eu" != "EU")
+
+# Maior
+a > b
+
+# Menor 
+a > b
+
+# Maior / igual
+2 >= 2
+
+# Menor / Igual
+a <- b
+
+# Operadores Lógicos
+
+a = 2
+b = 5
+d = "para"
+e = "lelepípedo"
+
+print(a,b)
+
+a == 2 and b==5
+
+a == 2 and b < 3
